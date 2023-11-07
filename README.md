@@ -1,6 +1,10 @@
 # CoRE-Rulebook
 CoREに関係するルールブック、および各種マニュアルを公開するリポジトリです。CoRE-1・CoRE-2、およびリーグ間共通のルールブックの他に、オートレフェリーや映像伝送装置のマニュアルも本リポジトリにて公開予定です。
 
+- [core_1_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_1_rulebook.md)：CoRE1部リーグルールブック
+- [core_2_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.md)：CoRE2部リーグルールブック
+- [core_common_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_common_rulebook.md)：CoREリーグ共通ルールブック
+
 ## CoREとは
 The Championship of Robotics Engineers、通称CoRE（コア）とは次世代のエンジニア”挑戦的共創人材”を育成するための、ロボット競技を核としたエンジニア選手権です。10歳以上であれば年齢制限無しで参加することができ、生徒・学生から現役エンジニア、また初心者でも楽しみながらエンジニアリングとチームワークを総合的に学べる機会を提供します。CoRE-1・CoRE-2の2つのリーグがあり、参加者の経験に合わせて参加するリーグを選択することができます。
 
