@@ -1,7 +1,7 @@
 name: ルールの変更提案
 description: 既存のルールの変更を提案するためのテンプレート
 title: "[ルール変更提案]"
-labels: ["question", "rulebook"]
+labels: ["question"]
 
 body:
   - type: input
