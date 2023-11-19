@@ -1,0 +1,90 @@
+name: ルールの削除提案
+description: 既存のルールの削除を提案するためのテンプレート
+title: "[ルール削除提案]"
+labels: ["question"]
+
+
+body:
+  - type: input
+    id: team-name
+    attributes:
+      label: チーム名
+      description: 提案をするチーム名を記入してください。
+      placeholder: チーム名をここに記入
+    validations:
+      required: true
+
+  - type: input
+    id: submitter-name
+    attributes:
+      label: 記入者氏名
+      description: 提案者の氏名を記入してください。
+      placeholder: 氏名をここに記入
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rulebook-section
+    attributes:
+      label: どのルールブックからルールの削除を提案しますか？
+      description: ルールを削除するルールブックのセクションを選択してください。
+      options:
+        - 共通
+        - 1部
+        - 2部
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: どの章からルールの削除を提案しますか？
+      description: ルールを削除する章を記入してください。
+      placeholder: 章をここに記入
+    validations:
+      required: true
+
+  - type: textarea
+    id: rule-deletion
+    attributes:
+      label: どのルールの削除を提案しますか？
+      description: 削除を提案するルールの内容を記述してください。
+      placeholder: ルールの詳細をここに記入
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: そのルールを削除する目的はなんですか？
+      description: ルール削除の目的を記述してください。
+      placeholder: 目的をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: concerns
+    attributes:
+      label: そのルールが削除されることによって生じる懸念はありますか？
+      description: 削除されるルールに関連する懸念事項を記述してください。
+      placeholder: 懸念事項をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason-for-existence
+    attributes:
+      label: 何故そのルールが現状のルールブックに記載されているのだと思いますか？
+      description: ルールが現在のルールブックにある理由を記述してください。
+      placeholder: 理由をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: affected-parties
+    attributes:
+      label: そのルールの削除によって影響を受けるチーム・人は誰ですか？
+      description: ルールの削除により影響を受けるチームや個人を記述してください。
+      placeholder: 影響を受けるチームや人をここに記入
+    validations:
+      required: false

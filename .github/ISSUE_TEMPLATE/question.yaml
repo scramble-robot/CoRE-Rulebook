@@ -1,0 +1,45 @@
+name: 実行委員会への質問・意見
+description: 実行委員会への質問や意見を提出するためのテンプレート
+title: "[実行委員会への質問・意見]"
+labels: ["question"]
+
+body:
+  - type: input
+    id: team-name
+    attributes:
+      label: チーム名
+      description: 質問・意見を提出するチーム名を記入してください。
+      placeholder: チーム名をここに記入
+    validations:
+      required: true
+
+  - type: input
+    id: submitter-name
+    attributes:
+      label: 記入者氏名
+      description: 質問・意見を提出する人の氏名を記入してください。
+      placeholder: 氏名をここに記入
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "その質問・意見はルールブックに対するものになっていませんか？ルールブックに対する質問や意見は実行委員会へ質問・意見するのではなくルールメイキングの枠組みで行ってください。"
+
+  - type: checkboxes
+    id: not-rulebook-related
+    attributes:
+      label: ルールブックへの質問・意見ではない
+      description: ルールブックに関する質問・意見でないことを確認してください。
+      options:
+        - label: "はい、ルールブックに関する質問・意見ではありません。"
+          required: true
+
+  - type: textarea
+    id: question-opinion
+    attributes:
+      label: 実行委員会への質問・意見内容を記入してください
+      description: 提出する質問や意見を記述してください。
+      placeholder: 質問・意見をここに記入
+    validations:
+      required: true

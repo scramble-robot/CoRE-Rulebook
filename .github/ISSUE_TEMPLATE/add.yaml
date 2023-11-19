@@ -1,0 +1,89 @@
+name: ルールの新規追加提案
+description: 新しいルールの追加を提案するためのテンプレート
+title: "[新規ルール提案]"
+labels: ["question"]
+
+body:
+  - type: input
+    id: team-name
+    attributes:
+      label: チーム名
+      description: 提案をするチーム名を記入してください（必須）。
+      placeholder: チーム名をここに記入
+    validations:
+      required: true
+
+  - type: input
+    id: submitter-name
+    attributes:
+      label: 記入者氏名
+      description: 提案者の氏名を記入してください。
+      placeholder: 氏名をここに記入
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rulebook-section
+    attributes:
+      label: どのルールブックへのルールの追加を提案しますか？
+      description: ルールを追加するルールブックのセクションを選択してください。
+      options:
+        - 共通
+        - 1部
+        - 2部
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: どの章へのルールの追加を提案しますか？
+      description: ルールを追加する章を記入してください。
+      placeholder: 章をここに記入
+    validations:
+      required: true
+
+  - type: textarea
+    id: rule-proposal
+    attributes:
+      label: どのようなルールの追加を提案しますか？
+      description: 提案するルールの内容を記述してください。
+      placeholder: ルールの詳細をここに記入
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: そのルールを追加する目的はなんですか？
+      description: ルール追加の目的を記述してください。
+      placeholder: 目的をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: concerns
+    attributes:
+      label: そのルールが追加されることによって生じる懸念はありますか？
+      description: 追加されるルールに関連する懸念事項を記述してください。
+      placeholder: 懸念事項をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason-for-absence
+    attributes:
+      label: 何故そのルールが現状のルールブックに記載されていないのだと思いますか？
+      description: ルールが現在のルールブックにない理由を記述してください。
+      placeholder: 理由をここに記入
+    validations:
+      required: false
+
+  - type: textarea
+    id: affected-parties
+    attributes:
+      label: そのルールの追加によって影響を受けるチーム・人は誰ですか？
+      description: ルールの追加により影響を受けるチームや個人を記述してください。
+      placeholder: 影響を受けるチームや人をここに記入
+    validations:
+      required: false
