@@ -59,7 +59,7 @@ body:
       description: ルール変更の目的を記述してください。
       placeholder: 目的をここに記入
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: concerns
@@ -86,4 +86,4 @@ body:
       description: ルールの変更により影響を受けるチームや個人を記述してください。
       placeholder: 影響を受けるチームや人をここに記入
     validations:
-      required: true
+      required: false
