@@ -1,7 +1,7 @@
 name: ルールの削除提案
 description: 既存のルールの削除を提案するためのテンプレート
 title: "[ルール削除提案]"
-labels: ["question", "rulebook"]
+labels: ["question"]
 
 
 body:
@@ -60,7 +60,7 @@ body:
       description: ルール削除の目的を記述してください。
       placeholder: 目的をここに記入
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: concerns
@@ -87,4 +87,4 @@ body:
       description: ルールの削除により影響を受けるチームや個人を記述してください。
       placeholder: 影響を受けるチームや人をここに記入
     validations:
-      required: true
+      required: false
