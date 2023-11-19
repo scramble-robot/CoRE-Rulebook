@@ -33,7 +33,7 @@ body:
       description: ルールブックに関する質問・意見でないことを確認してください。
       options:
         - label: "はい、ルールブックに関する質問・意見ではありません。"
-        required: true
+          required: true
 
   - type: textarea
     id: question-opinion
