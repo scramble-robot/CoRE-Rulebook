@@ -1,0 +1,62 @@
+---
+name: Rulebook markdown to PDF
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - core_*_rulebook.md
+      - core_*_image/*
+  pull_request:
+    branches:
+      - main
+    paths:
+      - core_*_rulebook.md
+      - core_*_image/*
+  workflow_dispatch:
+jobs:
+  build-common-rulebook:
+    name: Build common Rulebook
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: core_common_rulebook.md
+          images_dir: ./core_common_image/
+          output_dir: ./generated/
+          build_html: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Rulebooks
+          path: generated
+  build-1-rulebook:
+    name: Build League 1 Rulebook
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: core_1_rulebook.md
+          images_dir: ./core_1_image/
+          output_dir: ./generated/
+          build_html: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Rulebooks
+          path: generated
+  build-2-rulebook:
+    name: Build League 2 Rulebook
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: core_2_rulebook.md
+          images_dir: ./core_2_image/
+          output_dir: ./generated/
+          build_html: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Rulebooks
+          path: generated
