@@ -1,0 +1,32 @@
+---
+name: Rulebook markdown to PDF
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - core_*_rulebook.md
+      - core_*_image/*
+  pull_request:
+    branches:
+      - main
+    paths:
+      - core_*_rulebook.md
+      - core_*_image/*
+  workflow_dispatch:
+jobs:
+  build-common-rulebook:
+    name: Build common Rulebook
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: core_common_rulebook.md
+          images_dir: ./core_common_image/
+          output_dir: ./generated/
+          build_html: false
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Rulebooks
+          path: generated
