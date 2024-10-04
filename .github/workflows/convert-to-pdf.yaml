@@ -26,7 +26,7 @@ jobs:
           images_dir: ./core_common_image/
           output_dir: ./generated/
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Rulebooks
           path: generated
@@ -41,7 +41,7 @@ jobs:
           images_dir: ./core_1_image/
           output_dir: ./generated/
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Rulebooks
           path: generated
@@ -56,7 +56,7 @@ jobs:
           images_dir: ./core_2_image/
           output_dir: ./generated/
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Rulebooks
           path: generated
