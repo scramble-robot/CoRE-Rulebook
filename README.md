@@ -26,7 +26,7 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 ※下記のCADはルールに影響のない細部に関して予告なく変更することがあります．
 ### フィールド
 - [CoRE-1フィールド](https://a360.co/3ztLLhT)
-- [CoRE-2フィールド](https://a360.co/49rKzZj)  
+- [CoRE-2フィールド](https://a360.co/4j1Bewl)  
 ※フィールドのCADは決勝トーナメント時のものとなっております．総大将決定戦時のフィールドのCADが必要な場合は，決勝トーナメント時のCADから不要な構造物を各自で非表示にしてお使いください．
 ### オートレフェリー等
 - [ダメージパネル](https://a360.co/4dqE8Xl)
@@ -34,10 +34,12 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 - [カメラモジュール](https://a360.co/4eJTO97)
 - [クライアントモジュール](https://a360.co/3N7wuGu)
 - [無線受信モジュール](https://a360.co/3N37Zuh)
+- [バッテリーホルダ](https://a360.co/4gMnnYW)
 - [パワーモジュール](https://a360.co/3Y49UVA)
 
 ### HDMIトランスミッター，マウントパーツ
 - [Moman Matrix 600（練習用）](https://a360.co/3XKI8fl)
+- [Moman Matrix 600s（練習用）](https://a360.co/4eMNf5P)
 - [HACCSOON CineView SE（本番用①）](https://a360.co/3TS8OtI)
 - [ACCSOON CineEye 2S Pro（本番用②）](https://a360.co/4enHw6v)
 
@@ -50,6 +52,22 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 [Youtubeチャンネル](https://www.youtube.com/@scramble-robot)
 
 #  更新履歴
+## 2025/01/10
+- CoRE-1ルールブックv25.1.0の公開
+    - ルールメイキングの結果を反映
+        - 7章　[新規ルール提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/20)に基づき，迎撃サイドの操縦手が相互に会話できるようルールを追加
+- CoRE-2ルールブックv25.1.0の公開
+    - ルールメイキングの結果を反映
+        - 4章　[新規ルール提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/20)に基づき，迎撃サイドの操縦手が相互に会話できるようルールを追加
+        - 5章　[ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/22)に基づき，ロボットの復活にかかる時間を1分から45秒へ短縮
+        - 7章　[ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/15)に基づき，スタートゾーンの形状を変更
+    - その他軽微な表記の修正
+- 各種CADの変更
+    - CoRE-1フィールドのフェンスの幅の誤りを修正
+    - ルール変更に基づきCoRE-2フィールドのスタートゾーンの形状を変更
+    - 映像伝送装置のマウントパーツ（HDMIトランスミッター側）の形状を変更
+    - バッテリーホルダのCADを公開
+
 ## 2024/10/01
 - CoRE2025シーズンのルール（v25.0.0）を公開
 
