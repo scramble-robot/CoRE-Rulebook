@@ -25,23 +25,23 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 ## 各種CAD
 ※下記のCADはルールに影響のない細部に関して予告なく変更することがあります．
 ### フィールド
-- [CoRE-1フィールド](https://a360.co/3ztLLhT)
-- [CoRE-2フィールド](https://a360.co/4j1Bewl)  
+- [CoRE-1フィールド](https://a360.co/3QtIhAK)
+- [CoRE-2フィールド](https://a360.co/4gVMzvj)  
 ※フィールドのCADは決勝トーナメント時のものとなっております．総大将決定戦時のフィールドのCADが必要な場合は，決勝トーナメント時のCADから不要な構造物を各自で非表示にしてお使いください．
 ### オートレフェリー等
-- [ダメージパネル](https://a360.co/4dqE8Xl)
-- [HPインジケータ](https://a360.co/3XOPEFY)
-- [カメラモジュール](https://a360.co/4eJTO97)
-- [クライアントモジュール](https://a360.co/3N7wuGu)
-- [無線受信モジュール](https://a360.co/3N37Zuh)
-- [バッテリーホルダ](https://a360.co/4gMnnYW)
-- [パワーモジュール](https://a360.co/3Y49UVA)
+- [ダメージパネル](https://a360.co/4k5IEiy)
+- [HPインジケータ](https://a360.co/41oRyAi)
+- [カメラモジュール](https://a360.co/4i1N2gs)
+- [クライアントモジュール](https://a360.co/4hHSB40)
+- [無線受信モジュール](https://a360.co/4k56wml)
+- [バッテリーホルダ](https://a360.co/3EG25Oz)
+- [パワーモジュール](https://a360.co/3EPKcNt)
 
 ### HDMIトランスミッター，マウントパーツ
-- [Moman Matrix 600（練習用）](https://a360.co/3XKI8fl)
-- [Moman Matrix 600s（練習用）](https://a360.co/4eMNf5P)
-- [HACCSOON CineView SE（本番用①）](https://a360.co/3TS8OtI)
-- [ACCSOON CineEye 2S Pro（本番用②）](https://a360.co/4enHw6v)
+- [Moman Matrix 600（練習用）](https://a360.co/411WY2O)
+- [Moman Matrix 600s（練習用）](https://a360.co/3EOeK2c)
+- [HACCSOON CineView SE（本番用①）](https://a360.co/4140Osl)
+- [ACCSOON CineEye 2S Pro（本番用②）](https://a360.co/4k95l5f)
 
 # 本Gitリポジトリの目的
 更新時の差分を分かりやすくすることを目的として、ルールブックをGitで管理・共有しています。将来的には参加選手の皆さまからの更新（プッシュ、マージ、プルリクエスト）についても受け入れる予定ですが、現在検討中のため閲覧のみに留めてください.  
@@ -52,6 +52,12 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 [Youtubeチャンネル](https://www.youtube.com/@scramble-robot)
 
 #  更新履歴
+## 2025/02/07
+- CoRE-1ルールブックv25.1.1の公開
+    - 4章　RealSense&trade;の表記を修正
+- Readmeの修正
+    - Fusion360のTeam hub移行に伴いCADリンクを全て更新
+
 ## 2025/02/07
 - CoRE共通ルールブックv25.0.1の公開
     - 4章　過去の各賞応募シートへのリンクを追加
