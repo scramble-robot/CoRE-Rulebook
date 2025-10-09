@@ -1,47 +1,53 @@
 # CoRE-Rulebook
-CoREに関係するルールブック、および各種マニュアルを公開するリポジトリです。CoRE-1・CoRE-2、およびリーグ間共通のルールブックの他に、オートレフェリーや映像伝送装置のマニュアルも本リポジトリにて公開予定です。
+CoREに関係するルールブック、および各種マニュアルを公開するリポジトリです。現在下記のルールブック・マニュアルを公開中です。
 
 - [core_1_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_1_rulebook.md)：CoRE1部リーグルールブック
 - [core_2_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.md)：CoRE2部リーグルールブック
 - [core_common_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_common_rulebook.md)：CoREリーグ共通ルールブック
+- [core_gamesystem_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_gamesystem_rulebook.md)：CoRE競技システムルールブック
 
 ## CoREとは
 The Championship of Robotics Engineers、通称CoRE（コア）とは次世代のエンジニア”挑戦的共創人材”を育成するための、ロボット競技を核としたエンジニア選手権です。10歳以上であれば年齢制限無しで参加することができ、生徒・学生から現役エンジニア、また初心者でも楽しみながらエンジニアリングとチームワークを総合的に学べる機会を提供します。CoRE-1・CoRE-2の2つのリーグがあり、参加者の経験に合わせて参加するリーグを選択することができます。
 
-[![CoRE競技の様子](https://img.youtube.com/vi/I-mKqro_V8g/0.jpg)](https://youtu.be/I-mKqro_V8g)
+[![CoRE競技の様子](https://img.youtube.com/vi/CRIbSfRB23k/0.jpg)](https://youtu.be/CRIbSfRB23k?si=FN2N32w1-zPsNWkF)
 
 ## ルール概要
 CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方式です。負けたチームが勝ったチームに加わり、協力して次の試合に挑むこの形式では、連携と交渉力が必要不可欠。チーム間の駆け引きやルールメイキングも重要な要素です。さらにロボットに搭載したカメラの映像を見て、ロボット目線で操縦してフライングディスクを当て合うエンターテインメント性とゲーム性の高い競技設計が特徴で、観戦者にも参加の意欲をかき立てます。チームワークと技術が限られた視界を補い、エキサイティングな対戦を展開します。
 
 [![競技ルール基本編](https://img.youtube.com/vi/Ev4a87VXtDs/0.jpg)](https://youtu.be/Ev4a87VXtDs)
 
-## 選手権の様子
-### CoRE-1: 2024決勝戦
-[![CoRE_1_2024](https://img.youtube.com/vi/bqQHqIVsSWQ/0.jpg)](https://youtu.be/bqQHqIVsSWQ)
+## 直近の選手権の様子
+### CoRE-1: 2025決勝戦
+[![CoRE_1_2025](https://img.youtube.com/vi/vLXvpPt3QME/0.jpg)](https://www.youtube.com/watch?v=vLXvpPt3QME)
 
-### CoRE-2: 2024決勝戦
-[![CoRE_2_2024](https://img.youtube.com/vi/RyQYBTSWdC8/0.jpg)](https://youtu.be/RyQYBTSWdC8)
+### CoRE-2
+- [CoRE-2 京都カップ2025決勝戦](https://www.youtube.com/watch?v=iCIrrDFLPLI)
+- [CoRE-2 柏の葉カップ2025決勝戦](https://www.youtube.com/watch?v=Zv_Il6qW9os)
+
 
 ## 各種CAD
 ※下記のCADはルールに影響のない細部に関して予告なく変更することがあります．
 ### フィールド
-- [CoRE-1フィールド](https://a360.co/3QtIhAK)
-- [CoRE-2フィールド](https://a360.co/4gVMzvj)  
-※フィールドのCADは決勝トーナメント時のものとなっております．総大将決定戦時のフィールドのCADが必要な場合は，決勝トーナメント時のCADから不要な構造物を各自で非表示にしてお使いください．
-### オートレフェリー等
-- [ダメージパネル](https://a360.co/4k5IEiy)
-- [HPインジケータ](https://a360.co/41oRyAi)
-- [カメラモジュール](https://a360.co/4i1N2gs)
-- [クライアントモジュール](https://a360.co/4hHSB40)
-- [無線受信モジュール](https://a360.co/4k56wml)
-- [バッテリーホルダ](https://a360.co/3EG25Oz)
-- [パワーモジュール](https://a360.co/3EPKcNt)
+- [CoRE-1フィールド](https://a360.co/46RoSla)
+- [CoRE-2フィールド](https://a360.co/4mDHeM4)  
 
-### HDMIトランスミッター，マウントパーツ
-- [Moman Matrix 600（練習用）](https://a360.co/411WY2O)
-- [Moman Matrix 600s（練習用）](https://a360.co/3EOeK2c)
-- [HACCSOON CineView SE（本番用①）](https://a360.co/4140Osl)
-- [ACCSOON CineEye 2S Pro（本番用②）](https://a360.co/4k95l5f)
+### 競技用品
+- [RPコンテナ](https://a360.co/4nVJKOM)
+- [シールドキャリアー](https://a360.co/3VY5L3J)
+
+### オートレフェリー・操縦用無線モジュール
+- [ダメージパネル](https://a360.co/4oMCVAy)
+- [HPインジケータ](https://a360.co/41oRyAi)
+- [バッテリーホルダ](https://a360.co/3EG25Oz)
+- クライアントモジュール（後日公開）
+- [無線送受信モジュール](https://a360.co/4k56wml)
+
+### 映像伝送装置
+- [カメラモジュール](https://a360.co/4mPHjwr)
+- [練習用HDMIトランスミッタ①（Moman Matrix 600，Shimbol TP Mini）](https://a360.co/411WY2O)
+- [練習用HDMIトランスミッタ②（Moman Matrix 600s）](https://a360.co/3EOeK2c)
+- [本番用HDMIトランスミッタ①（HACCSOON CineView SE）](https://a360.co/4140Osl)
+- [本番用HDMIトランスミッタ②（ACCSOON CineEye 2S Pro）](https://a360.co/4k95l5f)
 
 # 本Gitリポジトリの目的
 更新時の差分を分かりやすくすることを目的として、ルールブックをGitで管理・共有しています。将来的には参加選手の皆さまからの更新（プッシュ、マージ、プルリクエスト）についても受け入れる予定ですが、現在検討中のため閲覧のみに留めてください.  
@@ -52,6 +58,20 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 [Youtubeチャンネル](https://www.youtube.com/@scramble-robot)
 
 #  更新履歴
+## 2026/10/10
+- CoRE-1,2ルールブックv26.0.0の公開
+    - VP・RPシステムを導入
+    - RPコンテナを導入
+- CoRE共通ルールブックv26.0.0の公開
+    - 各賞のルーブリック、応募シートを更新
+- CoRE競技システムルールブックv26.0.0の公開
+    - CoRE共通ルールブックから競技システム関連を分離
+    - 各種競技システムの仕様・規則を更新
+- Readmeの更新
+    - 各種動画を更新
+    - CoRE-1，2フィールドCADを更新
+    - 各種競技コンポーネントのCADを更新
+
 ## 2025/04/04
 - CoRE-2ルールブックv25.2.0の公開
     - 5章　決勝戦における初期HPと復活時HPを60に増加
