@@ -39,8 +39,10 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 - [ダメージパネル](https://a360.co/4oMCVAy)
 - [HPインジケータ](https://a360.co/41oRyAi)
 - [バッテリーホルダ](https://a360.co/3EG25Oz)
-- クライアントモジュール（後日公開）
+- [クライアントモジュール](https://a360.co/4kyz7RD)
 - [無線送受信モジュール](https://a360.co/4k56wml)
+- [Wi-Fi HaLow&trade;モジュール](https://a360.co/4rUlMpn)
+- [ダミーダメージパネル](https://a360.co/3MoUg4c)
 
 ### 映像伝送装置
 - [カメラモジュール](https://a360.co/4mPHjwr)
@@ -58,7 +60,26 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 [Youtubeチャンネル](https://www.youtube.com/@scramble-robot)
 
 #  更新履歴
-## 2026/10/10
+## 2026/02/19
+- CoRE-1ルールブックv26.0.1の公開
+    - ルールメイキングの結果を反映
+        - 4章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/45)に基づき，射出機構の定義を明記
+        - 5章 [新規ルール提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/48)に基づき，オートアタッカーへの映像伝送装置を搭載可に
+        - 13章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/42)に基づき，赤・青陣地の位置を追加
+- CoRE-2ルールブックv26.0.1の公開
+    - ルールメイキングの結果を反映
+        - 3章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/45)に基づき，射出機構の定義を明記
+- CoRE-共通ルールブックv26.1.0の公開
+    - ルールメイキングの結果を反映
+        - 4章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/41)に基づき，優秀シューター賞および優秀スプリンター賞の競技ボーナスのLvを明記
+        - 4章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/46)に基づき，ファイナリストボーナスの重複適用を明記
+        - 5章 [新規ルール提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/53)に基づき，ロボットの検査に関する章を追加．リスクアセスメントおよびルールメイキングの章を6，7章へ移動
+- CoRE競技システムルールブック v26.1.0
+    - オートレフェリーシステムの詳細を公開
+    - ルールメイキングの結果を反映
+        - 4章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/38)に基づき注意事項を追加
+
+## 2025/10/10
 - CoRE-1,2ルールブックv26.0.0の公開
     - VP・RPシステムを導入
     - RPコンテナを導入
