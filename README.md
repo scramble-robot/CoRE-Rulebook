@@ -42,7 +42,7 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
 - [クライアントモジュール](https://a360.co/4kyz7RD)
 - [無線送受信モジュール](https://a360.co/4k56wml)
 - [Wi-Fi HaLow&trade;モジュール](https://a360.co/4rUlMpn)
-- [ダミーダメージパネル](https://a360.co/3MoUg4c)
+- [ホストシミュレータ](https://a360.co/3OOiTYN)
 
 ### 映像伝送装置
 - [カメラモジュール](https://a360.co/4mPHjwr)
