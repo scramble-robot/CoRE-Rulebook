@@ -2,7 +2,7 @@
 CoREに関係するルールブック、および各種マニュアルを公開するリポジトリです。現在下記のルールブック・マニュアルを公開中です。
 
 - [core_1_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_1_rulebook.md)：CoRE1部リーグルールブック
-- [core_2_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.md)：CoRE2部リーグルールブック
+- [core_2_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.pdf)：CoRE2部リーグルールブック
 - [core_common_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_common_rulebook.md)：CoREリーグ共通ルールブック
 - [core_gamesystem_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_gamesystem_rulebook.md)：CoRE競技システムルールブック
 
@@ -78,6 +78,9 @@ CoREのロボット競技は、協力と戦略が鍵となる同盟バトル方�
     - オートレフェリーシステムの詳細を公開
     - ルールメイキングの結果を反映
         - 4章 [ルール変更提案](https://github.com/scramble-robot/CoRE-Rulebook/issues/38)に基づき注意事項を追加
+
+## 2026/09/23
+- CoRE-2ルールブックv27.1.0(PDF版)を公開
 
 ## 2025/10/10
 - CoRE-1,2ルールブックv26.0.0の公開
