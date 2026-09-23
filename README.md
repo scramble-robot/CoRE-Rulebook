@@ -2,7 +2,7 @@
 CoREに関係するルールブック、および各種マニュアルを公開するリポジトリです。現在下記のルールブック・マニュアルを公開中です。
 
 - [core_1_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_1_rulebook.md)：CoRE1部リーグルールブック
-- [core_2_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.pdf)：CoRE2部リーグルールブック
+- [core_2_rulebook.pdf](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_2_rulebook.pdf)：CoRE2部リーグルールブック
 - [core_common_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_common_rulebook.md)：CoREリーグ共通ルールブック
 - [core_gamesystem_rulebook.md](https://github.com/scramble-robot/CoRE-Rulebook/blob/main/core_gamesystem_rulebook.md)：CoRE競技システムルールブック
 
